@@ -38,7 +38,7 @@ a:hover {
 ////////////////////////////////////////////////////////////////////////////////
 .container {
   // background: inherit; // change on completion
-  height: 500vh;
+  height: auto;
 }
 
 // HEADER STYLES
@@ -151,5 +151,79 @@ a:hover {
     align-self: center;
     position: relative;
     top: 35vh;
+  }
+}
+
+////////////////////////////////////////////////////////////////////////////////
+
+// CAROUSEL STYLES
+
+.carouselWrapper {
+  height: 40vh;
+  background: lightgray;
+}
+
+////////////////////////////////////////////////////////////////////////////////
+
+// COURSECARDS STYLES
+
+.cc_Wrapper {
+  height: 82vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: firebrick;
+  .topDeck, .bottomDeck {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    height: 40vh;
+    width: 98%;
+    background: darkgrey;
+    .card {
+      height: 100%;
+      width: 25%;
+      background: lavender;
+      margin: 0 .5vw;
+      .video {
+        height: 20vh;
+        background: blue;
+      }
+      .card_content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 1vh;
+        h3 {
+          font-size: 1rem;
+          max-width: 70%;
+        }
+        .user {
+          height: 5vh;
+          width: 3.5vw;
+          margin-right: 1vw;
+          background: tomato;
+          border-radius: 0.15rem;
+        }
+      }
+      .card_metaData {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        margin-left: 1vw;
+        font-size: .75rem;
+        position: relative;
+        bottom: -4vh;
+      }
+    }
+  }
+  .topDeck {
+
+
+  }
+  .bottomDeck {
+    margin-top: 2vh;
   }
 }
