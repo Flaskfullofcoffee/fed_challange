@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Header from './components/header'
+import Footer from './components/footer'
 import './App.scss';
 
 
@@ -9,6 +10,7 @@ class App extends Component {
       return (
             <div className='container'>
               <Header />
+              <Footer />
             </div>
         )
     }
