@@ -16,8 +16,8 @@ class App extends Component {
               <Header />
               <Hero />
               <Carousel />
-              <CourseCards /> 
-              {/* <FitCards /> */}
+              <CourseCards />
+              <FitCards /> 
               {/* <Footer /> */}
             </div>
         )

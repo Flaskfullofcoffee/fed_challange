@@ -219,11 +219,47 @@ a:hover {
       }
     }
   }
-  .topDeck {
-
-
-  }
   .bottomDeck {
     margin-top: 2vh;
+  }
+}
+
+////////////////////////////////////////////////////////////////////////////////
+
+// IFITCARDS STYLES
+
+.fc_wrapper {
+  height: 75vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .grabber {
+    position: relative;
+    top: 5vh;
+    font-size: 1.25rem;
+    font-weight: 400;
+  }
+  .fc_deck {
+    height: 92%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: tomato;
+    .card {
+      height: 75%;
+      width: 24%;
+      display: flex;
+      background: teal;
+      justify-content: center;
+      align-items: flex-end;
+      position: relative;
+      bottom: -15vh;
+      box-shadow: -2px 2px 4px #000;
+      h2 {
+        margin-bottom: 2vh;
+      }
+    }
   }
 }
