@@ -14,7 +14,7 @@ class App extends Component {
       return (
             <div className='container'>
               <Header />
-              {/* <Hero /> */}
+              <Hero />
               {/* <Carousel /> */}
               {/* <CourseCards /> */}
               {/* <FitCards /> */}
