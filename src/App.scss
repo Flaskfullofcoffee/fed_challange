@@ -1,0 +1,39 @@
+// GLOBALL STYLES
+* {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+  padding: .5vh 0;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+a:hover {
+  color: #00c9db !important;
+}
+
+.active {
+  visibility: visible;
+  transition: 1s;
+}
+.inActive {
+  display: none;
+  transition: 1s;
+}
+
+.reveal {
+  visibility: visible;
+}
+.hide {
+  display: none !important;
+}
+
+////////////////////////////////////////////////////////////////////////////////
+.container {
+  background: tomato;
+  height: 100vh;
+}
