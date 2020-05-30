@@ -41,7 +41,7 @@ function Footer() {
         <a className="social-link" href="#"><FontAwesomeIcon icon={faSquare} className='icon'/></a>
       </div>
       <div className='footerBottom'>
-        <button>English<FontAwesomeIcon icon={faChevronDown} className='icon'/></button>
+        <button>English<FontAwesomeIcon className='chevron' icon={faChevronDown} className='icon'/></button>
         <div className='footerData'>
           <p>© iFit.com. All Rights Reserved.</p>
           <a className="link" href="#">Privacy Policy</a>

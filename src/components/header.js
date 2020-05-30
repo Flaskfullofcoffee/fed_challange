@@ -15,17 +15,38 @@ function Header() {
   const backtrack = <FontAwesomeIcon icon={faBackward} />
   return (
     <header className='navWrapper'>
-      <div className='topNav'>
-        <a className="nav-link" href="#">Blog</a>
-        <a className="nav-link" href="#">Nourish</a>
-        <a className="nav-link" href="#">Shop</a>
-        <span classname='buffer'></span>
+      <div className='mainMenu'>
+        <div className='topNav'>
+          <a className="nav-link" href="#">Blog</a>
+          <a className="nav-link" href="#">Nourish</a>
+          <a className="nav-link" href="#">Shop</a>
+          <span classname='buffer'></span>
+        </div>
+        <div className='bottomNav'>
+          <div className='logoWrapper'>
+            <div className='logo'></div>
+          </div>
+          <div className='linksWrapper'>
+            <a className="nav-link" href="#">Exercise</a>
+            <a className="nav-link" href="#">Nutrition</a>
+            <a className="nav-link" href="#">Activity</a>
+            <a className="nav-link" href="#">Sleep</a>
+          </div>
+          <div className='navBtn'>
+            <button>Sign Up</button>
+          </div>
+        </div>
       </div>
-      <div className='bottomNav'>
+      <span className={`hamburger ${show}`} onClick={() => setState(true)}>{menu}</span>
+      <div className={`hamburgerMenu ${hide}`}>
+        <span className='returnBtn' onClick={() => setState(false)}>{backtrack}</span>
         <div className='logoWrapper'>
           <div className='logo'></div>
         </div>
-        <div className='linksWrapper'>
+        <div className='navContent'>
+          <a className="nav-link" href="#">Blog</a>
+          <a className="nav-link" href="#">Nourish</a>
+          <a className="nav-link" href="#">Shop</a>
           <a className="nav-link" href="#">Exercise</a>
           <a className="nav-link" href="#">Nutrition</a>
           <a className="nav-link" href="#">Activity</a>
@@ -35,18 +56,18 @@ function Header() {
           <button>Sign Up</button>
         </div>
       </div>
-      {/* // <span className={`hamburger ${show}`} onClick={() => setState(true)}>{menu}</span>
-        //
-        //     <div className={`navMenu ${hide}`}>
-        //       <span className='returnBtn' onClick={() => setState(false)}>{backtrack}</span>
-        //       <a className="nav-link" href="index.html">Home</a>
-        //       <a className="nav-link" href="#games_section">Games</a>
-        //       <a className="nav-link" href="#rates_section">Pricing</a>
-        //       <a className="nav-link" href="#reservation_section">RSVP</a>
-        //       <a className="nav-link" href="#location_section">Contact</a>
-      //     </div> */}
     </header>
   )
 }
 
 export default Header
+{/* // <span className={`hamburger ${show}`} onClick={() => setState(true)}>{menu}</span>
+  //
+  //     <div className={`navMenu ${hide}`}>
+  //       <span className='returnBtn' onClick={() => setState(false)}>{backtrack}</span>
+  //       <a className="nav-link" href="index.html">Home</a>
+  //       <a className="nav-link" href="#games_section">Games</a>
+  //       <a className="nav-link" href="#rates_section">Pricing</a>
+  //       <a className="nav-link" href="#reservation_section">RSVP</a>
+  //       <a className="nav-link" href="#location_section">Contact</a>
+//     </div> */}
