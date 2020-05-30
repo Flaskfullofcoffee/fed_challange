@@ -16,23 +16,35 @@ a {
   color: #575A5C;
 }
 a:hover {
-  color: #1796D6;
+  color: #0069D2;
 }
 
-.active {
-  visibility: visible;
-  transition: 1s;
-}
-.inActive {
-  display: none;
-  transition: 1s;
-}
+// .active {
+//   visibility: visible;
+//   transition: 1s;
+// }
+// .inActive {
+//   display: none;
+//   transition: 1s;
+// }
+//
+// .reveal {
+//   visibility: visible;
+// }
+// .hide {
+//   display: none !important;
+// }
 
-.reveal {
-  visibility: visible;
-}
-.hide {
-  display: none !important;
+@keyframes pulse {
+  0% {
+    box-shadow: 0px 1px 2px #2E3134;
+  }
+  50% {
+    box-shadow: 5px 15px 20px #2e3134;
+  }
+  0% {
+    box-shadow: 0px 1px 2px #2E3134;
+  }
 }
 
 ////////////////////////////////////////////////////////////////////////////////
@@ -108,7 +120,7 @@ a:hover {
         color: #fff;
         padding: .5rem 1rem;
         margin-left: 10vw;
-        background: #1796D6;
+        background: #0069D2;
         border: none;
         border-radius: .15rem;
         font-size: .75rem;
@@ -142,7 +154,7 @@ a:hover {
     width: 25%;
     color: #fff;
     padding: .75rem 1rem;
-    background: #1796D6;
+    background: #0069D2;
     border: none;
     border-radius: .15rem;
     font-size: .75rem;
@@ -199,9 +211,6 @@ a:hover {
     }
   }
 }
-// button.BrainhubCarousel_arrows.BrainhubCarousel_arrowLeft {
-//   background-color: tomato !important;
-// }
 
 ////////////////////////////////////////////////////////////////////////////////
 
@@ -230,6 +239,9 @@ a:hover {
       margin: 0 .5vw;
       box-shadow: 0px 1px 2px #2E3134;
       position: relative;
+      &:hover {
+        animation: pulse 3s infinite;
+      }
       .video1, .video2, .video3, .video4, .video5, .video6, .video7, .video8 {
         background-repeat: no-repeat;
         background-size: cover;
