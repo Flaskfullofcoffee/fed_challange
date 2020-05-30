@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2c7a4fe42cfe54f9dbccc45278061970",
+    "revision": "03fc0d5a33b1461fef1e0b7efa7dfa35",
     "url": "/fed_challange/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/fed_challange/static/css/2.d2024f88.chunk.css"
   },
   {
-    "revision": "0d64219cb660ef57f096",
-    "url": "/fed_challange/static/css/main.802bc700.chunk.css"
+    "revision": "e6cccf0c298e348fe34b",
+    "url": "/fed_challange/static/css/main.ea0eca73.chunk.css"
   },
   {
     "revision": "0fd3c9b83f4a018010aa",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/fed_challange/static/js/2.3c29dd11.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0d64219cb660ef57f096",
+    "revision": "e6cccf0c298e348fe34b",
     "url": "/fed_challange/static/js/main.9710921b.chunk.js"
   },
   {

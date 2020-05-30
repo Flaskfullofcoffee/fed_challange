@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/fed_challange/static/css/main.802bc700.chunk.css",
+    "main.css": "/fed_challange/static/css/main.ea0eca73.chunk.css",
     "main.js": "/fed_challange/static/js/main.9710921b.chunk.js",
     "main.js.map": "/fed_challange/static/js/main.9710921b.chunk.js.map",
     "runtime-main.js": "/fed_challange/static/js/runtime-main.2bfbf0d8.js",
@@ -9,10 +9,10 @@
     "static/js/2.3c29dd11.chunk.js": "/fed_challange/static/js/2.3c29dd11.chunk.js",
     "static/js/2.3c29dd11.chunk.js.map": "/fed_challange/static/js/2.3c29dd11.chunk.js.map",
     "index.html": "/fed_challange/index.html",
-    "precache-manifest.d6a3a25ce1f3a91661d1951431d38140.js": "/fed_challange/precache-manifest.d6a3a25ce1f3a91661d1951431d38140.js",
+    "precache-manifest.ed1e7d930f97bccb114863c5273f44d0.js": "/fed_challange/precache-manifest.ed1e7d930f97bccb114863c5273f44d0.js",
     "service-worker.js": "/fed_challange/service-worker.js",
     "static/css/2.d2024f88.chunk.css.map": "/fed_challange/static/css/2.d2024f88.chunk.css.map",
-    "static/css/main.802bc700.chunk.css.map": "/fed_challange/static/css/main.802bc700.chunk.css.map",
+    "static/css/main.ea0eca73.chunk.css.map": "/fed_challange/static/css/main.ea0eca73.chunk.css.map",
     "static/js/2.3c29dd11.chunk.js.LICENSE.txt": "/fed_challange/static/js/2.3c29dd11.chunk.js.LICENSE.txt",
     "static/media/App.scss": "/fed_challange/static/media/wired-logo.2ad37b94.svg"
   },
@@ -20,7 +20,7 @@
     "static/js/runtime-main.2bfbf0d8.js",
     "static/css/2.d2024f88.chunk.css",
     "static/js/2.3c29dd11.chunk.js",
-    "static/css/main.802bc700.chunk.css",
+    "static/css/main.ea0eca73.chunk.css",
     "static/js/main.9710921b.chunk.js"
   ]
 }
