@@ -674,5 +674,33 @@ footer {
         }
       }
     }
+    .fc_wrapper {
+      height: 140vh;
+      .fc_deck {
+        flex-wrap: wrap;
+        height: 75vh;
+        .card {
+          margin: 1vh 0;
+          flex-basis: 35%;
+        }
+      }
+    }
+    footer {
+      .footerMenu {
+        font-size: .75rem;
+        .column {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+
+      .footerBottom {
+        .footerData {
+          margin-right: 0;
+        }
+      }
+    }
   }
 }
