@@ -12,7 +12,7 @@ class CourseCards extends Component {
     render() {
       return (
             <div className='cc_Wrapper'>
-              <div className='topDeck'>
+              <div className='cardDeck'>
                 <div className='card'>
                   <div className='video1' alt='video placement'></div>
                   <div className='card_content'>
@@ -61,8 +61,6 @@ class CourseCards extends Component {
                     <a href='#'>View Details</a>
                   </ul>
                 </div>
-              </div>
-              <div className='bottomDeck'>
                 <div className='card'>
                   <div className='video5' alt='video placement'></div>
                   <div className='card_content'>
@@ -105,12 +103,12 @@ class CourseCards extends Component {
                     <h3>Shred & Burn Series</h3>
                     <div className='user8'></div>
                   </div>
-                <ul className='card_metaData'>
-                  <li><FontAwesomeIcon icon={faClock} /> 10:53</li>
-                  <li><FontAwesomeIcon icon={faEye} /> 8,802 M</li>
-                  <a href='#'>View Details</a>
-                </ul>
-              </div>
+                  <ul className='card_metaData'>
+                    <li><FontAwesomeIcon icon={faClock} /> 10:53</li>
+                    <li><FontAwesomeIcon icon={faEye} /> 8,802 M</li>
+                    <a href='#'>View Details</a>
+                  </ul>
+                </div>
               </div>
             </div>
         )
