@@ -10,19 +10,19 @@ class FitCards extends Component {
               <p className='grabber'>Interested in our exciting iFit-enabled equipment?</p>
               <div className='fc_deck'>
                 <div className='card'>
-                  <div alt='equipment img placement'></div>
+                  <div className='treadmill' alt='treadmill img'></div>
                   <h2>Treadmills</h2>
                 </div>
                 <div className='card'>
-                  <div alt='equipment img placement'></div>
+                  <div className='bikes' alt='bikes img'></div>
                   <h2>Bikes</h2>
                 </div>
                 <div className='card'>
-                  <div alt='equipment img placement'></div>
+                  <div className='ellipticals' alt='ellipticals img'></div>
                   <h2>Ellipticals</h2>
                 </div>
                 <div className='card'>
-                  <div alt='equipment img placement'></div>
+                  <div className='strength' alt='strength equipment img'></div>
                   <h2>Strength</h2>
                 </div>
               </div>

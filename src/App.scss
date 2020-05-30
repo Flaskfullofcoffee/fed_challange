@@ -160,7 +160,7 @@ a:hover {
 
 .carouselWrapper {
   height: 40vh;
-  background: lightgray;
+  background: #fff;
 }
 
 ////////////////////////////////////////////////////////////////////////////////
@@ -168,27 +168,64 @@ a:hover {
 // COURSECARDS STYLES
 
 .cc_Wrapper {
-  height: 82vh;
+  height: 85vh;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  background: firebrick;
+  margin-top: 2.5vh;
+  // background: firebrick;
   .topDeck, .bottomDeck {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     text-align: center;
-    height: 40vh;
-    width: 98%;
-    background: darkgrey;
+    height: 42.5vh;
+    width: 85%;
+    // background: darkgrey;
     .card {
       height: 100%;
       width: 25%;
-      background: lavender;
+      border-radius: 1%;
+      background: #fff;
       margin: 0 .5vw;
-      .video {
+      box-shadow: 0px 1px 2px #2E3134;
+      position: relative;
+      .video1, .video2, .video3, .video4, .video5, .video6, .video7, .video8 {
+        background-repeat: no-repeat;
+        background-size: cover;
         height: 20vh;
-        background: blue;
+      }
+      .video1 {
+        background-image: url('./images/video1.jpg');
+        background-position: 25% 25%;
+      }
+      .video2 {
+        background-image: url('./images/video2.jpg');
+        background-position: 25% 25%;
+      }
+      .video3 {
+        background-image: url('./images/video3.jpg');
+        background-position: 25% 25%;
+      }
+      .video4 {
+        background-image: url('./images/video4.jpg');
+        background-position: 25% 25%;
+      }
+      .video5 {
+        background-image: url('./images/video5.jpg');
+        background-position: 25% 25%;
+      }
+      .video6 {
+        background-image: url('./images/video6.jpg');
+        background-position: 25% 25%;
+      }
+      .video7 {
+        background-image: url('./images/video7.jpg');
+        background-position: 25% 25%;
+      }
+      .video8 {
+        background-image: url('./images/video8.jpg');
+        background-position: 25% 25%;
       }
       .card_content {
         display: flex;
@@ -199,13 +236,49 @@ a:hover {
         h3 {
           font-size: 1rem;
           max-width: 70%;
+          text-align: left;
+          margin-left: 1vw;
         }
-        .user {
+        .user1, .user2, .user3, .user4, .user5, .user6, .user7, .user8 {
           height: 5vh;
           width: 3.5vw;
           margin-right: 1vw;
           background: tomato;
           border-radius: 0.15rem;
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+        .user1 {
+          background-image: url('./images/user1.jpg');
+          background-position: 25% 25%;
+        }
+        .user2 {
+          background-image: url('./images/user2.jpg');
+          background-position: 25% 25%;
+        }
+        .user3 {
+          background-image: url('./images/user3.jpg');
+          background-position: 25% 25%;
+        }
+        .user4 {
+          background-image: url('./images/user4.jpg');
+          background-position: 25% 25%;
+        }
+        .user5 {
+          background-image: url('./images/user5.jpg');
+          background-position: 25% 25%;
+        }
+        .user6 {
+          background-image: url('./images/user6.jpg');
+          background-position: 25% 25%;
+        }
+        .user7 {
+          background-image: url('./images/user7.jpg');
+          background-position: 25% 25%;
+        }
+        .user8 {
+          background-image: url('./images/user8.jpg');
+          background-position: 25% 25%;
         }
       }
       .card_metaData {
@@ -214,8 +287,8 @@ a:hover {
         text-align: left;
         margin-left: 1vw;
         font-size: .75rem;
-        position: relative;
-        bottom: -4vh;
+        position: absolute;
+        bottom: .5vh;
       }
     }
   }
@@ -229,16 +302,18 @@ a:hover {
 // IFITCARDS STYLES
 
 .fc_wrapper {
-  height: 75vh;
+  height: 65vh;
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: -2.5vh;
   .grabber {
     position: relative;
-    top: 5vh;
+    top: 12vh;
     font-size: 1.25rem;
-    font-weight: 400;
+    font-weight: bold;
+    color: #5D6063;
   }
   .fc_deck {
     height: 92%;
@@ -246,19 +321,41 @@ a:hover {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    background: tomato;
     .card {
       height: 75%;
       width: 24%;
       display: flex;
-      background: teal;
-      justify-content: center;
+      flex-direction: column;
+      justify-content: space-between;
       align-items: flex-end;
       position: relative;
       bottom: -15vh;
       box-shadow: -2px 2px 4px #000;
+      .treadmill, .bikes, .ellipticals, .strength {
+        background-repeat: no-repeat;
+        background-position: center;
+        position: relative;
+        top: 2.5vh;
+        height: 80%;
+        width: 100%;
+      }
+      .treadmill {
+        background-image: url('./images/treadmills.png');
+      }
+      .bikes {
+        background-image: url('./images/bikes.png');
+      }
+      .ellipticals {
+        background-image: url('./images/ellipticals.png');
+      }
+      .strength {
+        background-image: url('./images/strength.png');
+      }
       h2 {
-        margin-bottom: 2vh;
+        position: relative;
+        margin: 0 auto;
+        top: -2.5vh;
+        color: #5D6063;
       }
     }
   }
