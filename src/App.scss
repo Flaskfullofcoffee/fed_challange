@@ -263,3 +263,124 @@ a:hover {
     }
   }
 }
+
+////////////////////////////////////////////////////////////////////////////////
+
+// FOOTER STYLES
+
+footer {
+  display: flex;
+  flex-direction: column;
+  // justify-content: center;
+  align-items: center;
+  height: 25vh;
+  background: #2E3134;
+  .footerMenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: left;
+    width: 55%;
+    color: #fff;
+    .column {
+      position: relative;
+      top: 5vh;
+      width: 5vw;
+      margin: 0 5rem;
+      li:first-of-type {
+        font-weight: bold;
+      }
+      li {
+        width: 10vw;
+      }
+    }
+  }
+  .socialBar_wrapper {
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 8vh;
+    padding: 2vh 0;
+    background: #2E3134;
+    border-top: .5px solid #fff;
+    border-bottom: .5px solid #fff;
+    .social-link {
+      height: 5vh;
+      width: 5vh;
+      border-radius: 50%;
+      border: none;
+      margin: 0 1.5rem;
+      background: rgb(0,105,210);
+      background: linear-gradient(150deg, rgba(0,105,210,1) 0%, rgba(40,225,165,1) 100%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .icon {
+        color: #fff;
+        height: 50%;
+        width: 50%;
+      }
+      .pinterestIcon, .facebookIcon, .twitterIcon {
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 50%;
+        width: 50%;
+      }
+      .pinterestIcon {
+        background-image: url('./images/pinterestIcon.svg');
+      }
+      .facebookIcon {
+        background-image: url('./images/facebookIcon.svg');
+      }
+      .twitterIcon {
+        background-image: url('./images/twitterIcon.svg');
+        color: #fff;
+      }
+    }
+  }
+  .footerBottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    width: 100%;
+    color: #fff;
+    position: relative;
+    bottom: -8vh;
+    background: #2E3134;
+    padding: 2vh 0;
+    button {
+      border: none;
+      background: none;
+      color: #fff;
+      font-size: .75rem;
+      flex-grow: 1;
+      width: 10%;
+      .icon {
+        position: relative;
+        top: .15vh;
+        left: .5vw;
+      }
+    }
+    .footerData {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      margin-right: 10vw;
+      width: 90%;
+      p, a {
+        margin: 0 1.5vw;
+      }
+    }
+    .link {
+      color: #fff;
+      font-weight: normal;
+    }
+  }
+}
